@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ResturantMasterPage.master.cs" Inherits="ResturantMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head id="Head1" runat="server">
+        <title>Sample Master Page</title>
+        <link href="AddressBook.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            .auto-style1 {
+                text-decoration: underline;
+                text-align: center;
+            }
+            .auto-style2 {
+                width: 215px;
+                height: 159px;
+                margin-left: 0px;
+            }
+            .auto-style3 {
+                font-size: large;
+            }
+            .auto-style4 {
+                text-decoration: underline;
+                font-size: larger;
+            }
+            .auto-style5 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body style="height: 281px; margin-top: 121px">
+        <form id="form1" runat="server">
+ 
+             <header class="auto-style1">
+                 <strong>Ayubs
+                 Restaurant System <br />
+                 <br />
+                 <img alt="" class="auto-style2" src="Images/Ayub%20logo%20jpg.jpg" /></strong></header>
+ 
+            <article>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                </asp:ContentPlaceHolder>
+            </article>
+  
+            <footer>
+                <div class="auto-style5">
+                    <h2><span class="auto-style4"><strong>Navigation Bar Links</strong></span></h2>
+&nbsp;</div>
+                            <li class="auto-style3"><a href="Home.aspx"><strong>Home</strong></a></li>
+                       <li class="auto-style3"><a  href="Booktable.aspx"><strong>Book A Table</strong></a></li>
+                            <li class="auto-style3"><a href="Signup.aspx" class="scroll"><strong>Sign Up</strong></a></li>
+                              <li class="auto-style3"><a href="Login.aspx" class="scroll"><strong>Log In | Log Out</strong></a></li>
+                              <li class="auto-style3">  <a href="ReviewPage.aspx"><strong>Review Page</strong></a></li>
+                              <li class="auto-style3">  <a href="ViewProfile.aspx"><strong>View | Edit | Delete Profile</strong></a></li>
+                            <li class="auto-style3"><a href="ViewBooking.aspx" class="scroll"><strong>View Booking</strong></a></li>
+                            <li class="auto-style3"><a href="SeeAllCustomerReviews.aspx" class="scroll"><strong>Read Reviews</strong></a></li>
+                            <li class="auto-style3"><a href="ContactUs.aspx" class="scroll"><strong>Contact Us</strong></a></li>   
+            </footer>
+        </form>
+    </body>
+</html>
